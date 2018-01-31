@@ -23,14 +23,14 @@ Cette application s'installe avec la commande ``symfony demo``. **Il faut utilis
 
 Solution :
 
-* [code](https://github.com/Oxalide/docker-workshop-advanced/tree/app/app)
-* [image Docker construite](https://hub.docker.com/r/oxalide/workshop-docker-advanced/tags/) (choisir le tag ``app``)
+* [code](https://github.com/theGarageBandOfIT/docker-workshop-advanced/tree/app/app)
+* [image Docker construite](https://hub.docker.com/r/lpiot/workshop-docker-advanced/tags/) (choisir le tag ``app``)
 
 ## Installation de minikube
 
 _Sur votre laptop_
 
-### OS X
+### MacOS X
 
 ```bash
 brew install docker-machine-driver-xhyve
@@ -57,7 +57,7 @@ Tip : Si vous avez créé un service pour l'application, vous pouvez l'afficher 
 
 Solution :
 
-* [code](https://github.com/Oxalide/docker-workshop-advanced/tree/app/k8s)
+* [code](https://github.com/theGarageBandOfIT/docker-workshop-advanced/tree/app/k8s)
 
 ## Scale-out
 
@@ -84,8 +84,8 @@ Exercice : adapter l'application pour qu'elle utilise Redis comme backend de sto
 
 Solution :
 
-* [code](https://github.com/Oxalide/docker-workshop-advanced/tree/redis/app)
-* [image Docker construite](https://hub.docker.com/r/oxalide/workshop-docker-advanced/tags/) (choisir le tag ``app-redis``)
+* [code](https://github.com/theGarageBandOfIT/docker-workshop-advanced/tree/redis/app)
+* [image Docker construite](https://hub.docker.com/r/lpiot/workshop-docker-advanced/tags/) (choisir le tag ``app-redis``)
 
 ## Déploiement sur minikube
 
@@ -101,4 +101,4 @@ Exercice : déployer la nouvelle version de l'application sur minikube.
 
 Solution :
 
-* [code](https://github.com/Oxalide/docker-workshop-advanced/tree/redis/k8s)
+* [code](https://github.com/theGarageBandOfIT/docker-workshop-advanced/tree/redis/k8s)
