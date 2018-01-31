@@ -1,0 +1,4 @@
+apiVersion: v1
+description: The docker-workshop-advanced sample app WITHOUT persistent session, bundled into a Helm chart
+name: app-bundled
+version: 0.1.0
