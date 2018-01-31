@@ -1,0 +1,13 @@
+# Default values for docker-workshop-advanced.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+app:
+  enabled: true
+  replicas: 3
+  image: oxalide/workshop-docker-advanced:app-redis
+
+redis:
+  enabled: true
+  replicas: 1
+  image: redis

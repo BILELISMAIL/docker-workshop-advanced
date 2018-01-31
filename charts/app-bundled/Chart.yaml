@@ -1,0 +1,4 @@
+apiVersion: v1
+description: The Oxalide docker workshop sample app WITH persistent session, bundled in a Helm chart
+name: app-bundled
+version: 0.2.0

@@ -1,0 +1,18 @@
+{{- if .Values.redis.enabled }}
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: redis-deployment
+spec:
+  replicas: {{ .Values.redis.replicas }}
+  template:
+    metadata:
+      labels:
+        name: redis
+    spec:
+      containers:
+      - name: redis
+        image: redis
+        ports:
+        - containerPort: 6379
+{{- end }}

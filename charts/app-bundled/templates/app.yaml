@@ -1,0 +1,19 @@
+{{- if .Values.app.enabled }}
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: app-deployment
+spec:
+  replicas: {{ .Values.app.replicas }}
+  template:
+    metadata:
+      labels:
+        name: app
+    spec:
+      containers:
+      - name: app
+        image: {{ .Values.app.image }}
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
+{{- end }}
