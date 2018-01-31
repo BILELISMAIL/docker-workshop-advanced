@@ -102,3 +102,51 @@ Exercice : déployer la nouvelle version de l'application sur minikube.
 Solution :
 
 * [code](https://github.com/theGarageBandOfIT/docker-workshop-advanced/tree/redis/k8s)
+
+## Utilisation de Helm
+
+### Présentation
+
+[Helm](https://github.com/kubernetes/helm) est un outil inspiré de [Yum](https://doc.fedora-fr.org/wiki/YUM_:_Configuration_du_gestionnaire_de_paquets) pour `Linux` ou de [Homebrew](https://brew.sh/index_fr.html) pour `MacOS X`, qui permet de déployer toute une _stack_ verticale de _pods_ `Kubernetes`, avec ses dépendances, en une seule instruction.
+
+On pourrait dire qu'il s'agit du `docker-compose` pour `Kubernetes`.
+
+La _stack_ verticale de pods est décrite dans des fichiers de configuration nommés _charts_.
+
+[Kubeapps](https://hub.kubeapps.com) est un dépôt Web de _charts_ prêts à l'emploi et mis à disposition par la communauté.
+
+### Installation de Helm
+
+#### MacOS X
+
+Le composant client de `Helm` s'installe via `Homebrew`.
+
+```bash
+brew install kubernetes-helm
+```
+
+#### Installation de Tiller
+
+Le déploiement du composant serveur de `Helm` (nommé `Tiller`) se fait depuis le composant client.
+
+```bash
+helm init
+```
+
+### Déploiement de l'application via Helm
+
+_Sur votre laptop_
+
+Exercice : créer un chart Helm qui déploie [l'application de démonstration de Symfony](https://github.com/symfony/symfony-demo).
+**On considère la base de données mySQL déjà installée.**
+
+À la fin de cet exercice, vous devez avoir :
+
+* votre pod MySQL, avec sa donnée,
+* un pod avec l'application qui est linké au premier et qui expose un port,
+* l'application fonctionnelle dans votre navigateur.
+
+Solution :
+
+* [code version app](https://github.com/theGarageBandOfIT/docker-workshop-advanced/tree/app/charts)
+* [code version app](https://github.com/theGarageBandOfIT/docker-workshop-advanced/tree/redis/charts)
