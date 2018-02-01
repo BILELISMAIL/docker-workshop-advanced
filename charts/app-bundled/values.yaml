@@ -5,4 +5,4 @@
 app:
   enabled: true
   replicas: 2
-  image: lpiot/workshop-docker-advanced:app
+  image: eu.gcr.io/clustereurope2018/symfony2_demo:app
