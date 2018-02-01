@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "clustereurope2018",
+  "private_key_id": "206077fbc94754c153cd9a7b6ad3b824c50ff155",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDN3vT/jGWDJwMO\nkfpva/Pra3FcJSrVtq18N6guEbx0NGt0ROSjFy3LojR8lOVl8dbtUcMYEHu6UQG8\nOc92GWr7UI9KWV4tr3ojY+aSfNAm5fWHxA1T/BLdAgtprbFes+jK5Vathj71uUqx\n8x2NR6VlKNarSkzK63uOLBxewKGyiHSixeOCukrlyxK9SKLorAJjtIQU8zQPV6aN\nRq+clYo+Pi/GMR7L+s84kTkrw+KyPWegn9S3c12na2GcR6VR/vMnN8XzB1z1XyAv\neRftfnp59LVmpCG0bIpXhtxFg/sKeobzdx/Sx75FPFXTc2nKioUgWG6nCz0vkoxl\n/bCY5YLDAgMBAAECggEAAWHV00FmDRNd+eMRA15+LL5z7GJzfyvSzlqxTl3gHgec\nERPFVTL6o7tbDtsRDzYocz9xR+AUdJPGpzTcJ7bT+Qv5ak5fS386GrK5AZLE8v3o\nQBkY3c97cPBqkzMPVctvbK1Nf6y/D3dHARrYv/ITMjKr/kppaZNbKQEyz5ALhd9R\nk7PGIKmnI0HwqQGeLmINmcNnLdFlIHQLN0vRCs1aio4ngXaM8lXlE4dhhyTldDF8\nr2HtXYctUBxsBha0Yl1pGXxX59q7OkFKYO1vq9SFGc0opQm6X0Q1RQQALuh4PrR4\nGH3U66dPfMgu8g4nCgct0EeL98aJ3tQ8LcX+OvikgQKBgQDr8XucX/peEZGDJ/74\nwg/cFHwy/FMC7PDMEutPEO6KD6JbztZnQeqVCsIbB+ZHuOVilOx54neH3aNA90HU\nwIEiId1T25rfdVwd7m3Em7hmGDcY5l8u2Go/W+Q+cbXrV1DQw1+f25yKv1kCMExS\n7P1WjdaSmRdyhNsxQGZVdyGzewKBgQDfXwy0Q3WRiSACO4alfuj1iyUmfrEYyUjK\nkjFKE5FGDZ9IjW5CqP3ziE6AvmHpd6H7Ow2u7kSnqDDGv1zP8jFT/YgufEodggmf\nN9fG8j6OYG0PlildVdpq2lB25gsQLhfKkwsKvNo/GwZk8/foNwZK0I1aHxy5lIu3\nEbWbvAVHWQKBgGfmg4StT1e1bNrQ9hsdelZ0Pu1E6FlVdgSoIC9FSYZKtDixsQDv\nqhnQDwJQTDwxU/JBmpFiBTkzhPzK5ZaG31bkis6u2lilGdekc3otCNsMttakPC4o\n50DXen91G6NzZAdKwgVndFw1P0ETe8jYzAcdluwfto+bqdrafTYNrC2ZAoGANi2/\nzxltstcnxGLbzdhyeNw/Lo8cNX7dAQVknysP2YYEVHy5ecGzlxZAtEl5Rj+WMnGo\nZ/2y+Vd6PTq9MFL2VADyvxO2hmG8I7pPxBmNwsrwqQ8rCVCBodlCGxTBKjOD4ca4\nruoPpa7QZjwmrVRrWkorfuh89yZonQbWneeFAEECgYAP8FaIwA0mieHdp4js/rwU\nPC1Som49yChRp9J0XO4AXY3GcMrjNSD0ELCQOl+tmUWR4z4Sd7S2BwGDHnfpga7+\nU3NDXFcyMokUFLjva3js4+rD46m63TCyUKr9/HTw02eQnZErrzr7qnBiOaJmHLa0\n0M3FKyZH4f35d+zxqCmAgg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "gcr-pull@clustereurope2018.iam.gserviceaccount.com",
+  "client_id": "104343130459685233619",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gcr-pull%40clustereurope2018.iam.gserviceaccount.com"
+}
