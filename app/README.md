@@ -9,11 +9,11 @@ Dans K8s, cela peut être fait à l'aide d'un ``init container`` ([doc](http://k
 ## HowTo
 
 ```bash
-docker build -t oxalide/workshop-docker-advanced:app-redis .
+docker build -t eu.gcr.io/clustereurope2018/symfony2_demo:app-redis .
 docker run --name mysql -e MYSQL_ROOT_PASSWORD=toto42 -d mysql:5.6
 docker run --name redis -d redis:3.2-alpine
 cat data.sql | docker run -a stdin -a stdout -a stderr -i --link mysql:mysql --rm mysql:5.6 sh -c 'exec mysql -hmysql -uroot -ptoto42'
-docker run --link mysql:mysql --link redis:redis --rm -p 8080:80 -it oxalide/workshop-docker-advanced:app-redis
+docker run --link mysql:mysql --link redis:redis --rm -p 8080:80 -it eu.gcr.io/clustereurope2018/symfony2_demo:app-redis
 ```
 
 
@@ -36,7 +36,7 @@ Voici les variables d'environnement disponibles pour les containers:
 * ``MYSQL_USER``
 * ``MYSQL_PASSWORD``
 
-### oxalide/docker-workshop:app-redis
+### eu.gcr.io/clustereurope2018/symfony2_demo:app-redis
 
 * ``SYMFONY__DATABASE__HOST``
 * ``SYMFONY__DATABASE__PORT``

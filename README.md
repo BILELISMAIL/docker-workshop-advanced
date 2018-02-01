@@ -24,7 +24,7 @@ Cette application s'installe avec la commande ``symfony demo``. **Il faut utilis
 Solution :
 
 * [code](https://github.com/theGarageBandOfIT/docker-workshop-advanced/tree/app/app)
-* [image Docker construite](https://hub.docker.com/r/lpiot/workshop-docker-advanced/tags/) (choisir le tag ``app``)
+* [image Docker construite](https://console.cloud.google.com/gcr/images/clustereurope2018/EU/symfony2_demo?project=clustereurope2018&gcrImageListsize=50) (choisir le tag ``app``)
 
 ## Installation de minikube
 
@@ -85,7 +85,7 @@ Exercice : adapter l'application pour qu'elle utilise Redis comme backend de sto
 Solution :
 
 * [code](https://github.com/theGarageBandOfIT/docker-workshop-advanced/tree/redis/app)
-* [image Docker construite](https://hub.docker.com/r/lpiot/workshop-docker-advanced/tags/) (choisir le tag ``app-redis``)
+* [image Docker construite](https://console.cloud.google.com/gcr/images/clustereurope2018/EU/symfony2_demo?project=clustereurope2018&gcrImageListsize=50) (choisir le tag ``app-redis``)
 
 ## Déploiement sur minikube
 
